@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#root {
+  margin: 0;
+  padding: 2rem;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.pagination_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.pagination_sub, .pagination_add {
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.filter_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.content_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.product_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 8rem;
+}
